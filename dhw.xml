@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<layers>
+  <layer name="floorPlan" status="normal"/>
+</layers>
+<content>
+<ScrollPane>
+
+  <CanvasPane name="content" viewSize="1280.0,2280.0" valign="top" background="linearGradient( angle(90.0) stop(0.0% grey) stop(70.65% #2a363a) stop(100.0% black) )">
+
+    <PxInclude layout="0.0,0.0,1280.0,120.0" ord="file:^pxInclude/header.px"/>
+
+    <BoundLabel layout="570.0,310.0,190.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="630.0,300.0,70.0,30.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pumps/CircHorizOff.gif" padding="4.0"/>
+
+    <Line stroke="#b53535" pen="6.0 capRound" geom="759.0,317.0 759.0,309.0"/>
+
+    <Line stroke="#b53535" pen="6.0 capRound" geom="570.0,318.0 570.0,310.0"/>
+
+    <BoundLabel layout="610.0,270.0,23.0,42.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/Temp-well.png" padding="4.0"/>
+
+    <BoundLabel layout="670.0,370.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/DHWR" hyperlink="slot:../points/DHWR|view:webChart:ChartWidget" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="580.0,370.0,90.0,20.0" text="DHWR:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="580.0,390.0,90.0,20.0" text="DHW Flow:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="670.0,390.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/DHW_Flow" hyperlink="slot:../points/DHW_Flow|view:webChart:ChartWidget" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="580.0,410.0,90.0,20.0" text="Pump Enable:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="580.0,430.0,90.0,20.0" text="Pump Status:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="670.0,430.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/RCP1_Status" hyperlink="slot:../points/RCP1_Status|view:webChart:ChartWidget" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="580.0,450.0,90.0,20.0" text="Pump Alarm:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="670.0,450.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/RCP1_Alarm" hyperlink="slot:../points/RCP1_Status|view:webChart:ChartWidget" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="670.0,410.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Dom_RecircEnable" hyperlink="slot:../points/Dom_RecircEnable|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1100.0,90.0,168.0,20.0" text="DHW" font="bold 18.0pt Tahoma" foreground="white" halign="right" padding="4.0"/>
+
+  </CanvasPane>
+
+</ScrollPane>
+</content>
+</px>

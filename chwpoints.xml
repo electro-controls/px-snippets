@@ -1,0 +1,98 @@
+<BoundLabel layout="607.0,180.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/CWST" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="470.0,180.0,137.0,20.0" text="CHWS:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="470.0,200.0,137.0,20.0" text="CHWR:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="607.0,200.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/CWRT" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="470.0,230.0,137.0,20.0" text="CHWP1 Enable:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="607.0,230.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/CWP1_Enable" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="470.0,250.0,137.0,20.0" text="CHWP1 Speed:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="607.0,250.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/CWP1_SpeedRef" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="470.0,270.0,137.0,20.0" text="CHWP1 Current:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="607.0,270.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/CWP1_Current" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="470.0,310.0,137.0,20.0" text="CHWP2 Enable:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="607.0,310.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/CWP2_Enable" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="470.0,330.0,137.0,20.0" text="CHWP2 Speed:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="607.0,330.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/CWP2_SpeedRef" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="470.0,350.0,137.0,20.0" text="CHWP2 Current:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="607.0,350.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/CWP2_Current" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="670.0,290.0,137.0,20.0" text="CHW DP:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="807.0,290.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="station:|slot:/Drivers/BacnetNetwork/FSB_South_Ave/CHWSystem/CHWSystem/points/DiffPressure" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>

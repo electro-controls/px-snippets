@@ -1,0 +1,35 @@
+    <BoundLabel layout="362.0,240.0,138.0,90.0" text="HWP1" font="bold underline 14.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="366.0,264.0,54.0,20.0" text="Enable:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="360.0,304.0,60.0,20.0" text="Runtime:" font="italic 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="420.0,304.0,76.0,20.0" font="italic 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP1Status/Runtime" summary="%navOrd%" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="420.0,264.0,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP1Enable" hyperlink="slot:../points/HWP1Enable|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWP1Fail" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="366.0,284.0,54.0,20.0" text="Speed:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="420.0,284.0,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP1Speed" hyperlink="slot:../points/HWP1Speed|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>

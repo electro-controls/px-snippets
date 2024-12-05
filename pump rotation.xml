@@ -1,0 +1,35 @@
+    <BoundLabel layout="800.0,160.0,300.0,105.0" text="Pump Rotation" font="bold underline 15.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="857.0,184.0,128.0,20.0" text="Current Lead Pump:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="984.0,184.0,66.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/LeadPump" hyperlink="slot:../points/LeadPump|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="HW%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="865.5,223.0,168.0,20.0" text="Next Scheduled Rotation:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="802.0,243.0,295.0,20.0" font="bold 12.0pt Tahoma" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../PumpRotate/PumpRotate" hyperlink="slot:../PumpRotate/PumpRotate" summary="%navOrd%" statusEffect="none">
+        <ObjectToString name="text"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="855.0,204.0,128.0,20.0" text="Lag Assist:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="983.0,204.0,66.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWPLagAssist" hyperlink="slot:../points/HWPLagAssist|view:webChart:ChartWidget" summary="%navOrd%" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWPLagAssist/Reset" summary="%navOrd%"/>
+    </BoundLabel>

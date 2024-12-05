@@ -1,0 +1,23 @@
+    <BoundLabel layout="915.0,780.0,300.0,95.0" text="Boiler Lead/Lag" font="bold underline 16.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="1030.0,809.0,83.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/LeadBoiler" hyperlink="slot:../points/LeadBoiler|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="946.0,809.0,81.0,20.0" text="Lead Boiler:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1011.5,829.0,120.0,20.0" text="Next Sched Rotate" font="bold underline 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="917.0,849.0,293.0,20.0" font="bold 12.0pt Tahoma" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../BoilerRotate/BoilerRotate" hyperlink="slot:../BoilerRotate/BoilerRotate" summary="%navOrd%" statusEffect="none">
+        <ObjectToString name="text"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>

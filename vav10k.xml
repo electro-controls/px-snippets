@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="N4ElectroTools"/>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<layers>
+  <layer name="floorPlan" status="normal"/>
+</layers>
+<content>
+<ScrollPane>
+
+  <CanvasPane name="content" viewSize="1280.0,800.0" valign="top" background="linearGradient( angle(90.0) stop(0.0% grey) stop(70.65% #2a363a) stop(100.0% black) )">
+
+    <PxInclude layout="0.0,0.0,1280.0,120.0" ord="file:^pxInclude/header.px"/>
+
+    <BoundLabel layout="590.0,500.0,290.0,270.0" text="Zone Parameters" font="bold underline 18.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="820.0,513.5,38.0,236.5" background="#202020" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="262.0,169.0,655.0,343.0" image="module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/VAV_Box_HW.png" padding="4.0"/>
+
+    <BoundLabel layout="805.0,150.0,146.0,51.0" text="Supply Air To Space" font="bold 16.0pt Tahoma" foreground="white" halign="left" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="610.0,179.0,130.0,211.0" padding="4.0">
+      <ValueBinding ord="slot:../points/HWVCalcPct|view:webChart:ChartWidget" summary="%navOrd%">
+        <INumericToSimple name="image" map="gx:Image 0.0:1.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_00.png;1.0:10.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_10.png;10.0:20.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_20.png;20.0:30.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_30.png;30.0:40.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_40.png;40.0:50.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_50.png;50.0:60.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_60.png;60.0:70.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_70.png;70.0:80.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_80.png;80.0:90.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_90.png;90.0:100.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_100.png;100.0:0.0=null;default=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/HotwaterCoilAnimation/VAV_HWV_00.png;"/>
+      </ValueBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="726.0,184.0,35.0,40.0" image="module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DAT.png" padding="4.0"/>
+
+    <BoundLabel layout="371.0,335.0,96.0,125.0" padding="4.0">
+      <ValueBinding ord="slot:../points/SavCalcPct" summary="%navOrd%">
+        <INumericToSimple name="image" map="gx:Image 0.0:10.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_00.png;10.0:20.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_10.png;20.0:30.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_20.png;30.0:40.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_30.png;40.0:50.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_40.png;50.0:60.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_50.png;60.0:70.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_60.png;70.0:80.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_70.png;80.0:90.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_80.png;90.0:100.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_90.png;100.0:100.0=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_100.png;default=module://kitPxDelta/kitPxDelta/TerminalUnits/VAVs/DualDuct/VAV_DD_00.png;"/>
+      </ValueBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="340.0,434.0,80.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Sav_EffAirflow" hyperlink="slot:../points/Sav_EffAirflow|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="black"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="910.0,96.0,360.0,21.0" font="bold 18.0pt Tahoma" foreground="white" halign="right" padding="4.0">
+      <BoundLabelBinding ord="slot:../" summary="%navOrd%" statusEffect="none">
+        <ObjectToString name="text" format="%name%"/>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="730.0,214.0,66.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/DAT_Eff" hyperlink="slot:../points/DAT_Eff|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="black"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="715.0,432.0,81.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWV_EffDemand" hyperlink="slot:../points/HWVCalcPct|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWV_RemDemand" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="655.0,432.0,60.0,20.0" text="HWV:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="340.0,504.0,60.0,20.0" text="Damper:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="400.0,504.0,81.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Sav_EffDemand" hyperlink="slot:../points/SavCalcPct|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/Sav_RemDemand" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="920.0,265.0,225.0,105.0" text="Discharge Air" font="bold underline 18.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="1061.0,292.0,81.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/DAT_EffSp" hyperlink="slot:../points/DAT_EffSp|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/DAT_RemSp" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <Separator layout="936.0,308.0,195.0,10.0"/>
+
+    <BoundLabel layout="948.0,292.0,113.0,20.0" text="DAT Setpoint:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="937.0,321.0,124.0,20.0" text="DAT Reset Low Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="937.0,341.0,124.0,20.0" text="DAT Reset Max Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1061.0,341.0,71.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/DATResetHigh_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1061.0,321.0,71.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/DATResetLow_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="925.0,155.0,100.0,105.0" image="module://kitPxDelta/kitPxDelta/AHU/Other/Airflow_Arrow_RightDown.png" padding="4.0"/>
+
+    <BoundLabel layout="300.0,540.0,270.0,165.0" text="Airflow" font="bold underline 18.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="303.0,585.0,100.0,20.0" text="Airflow Alarm:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="481.0,565.0,79.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Sav_EffSp" hyperlink="slot:../points/Sav_EffSp|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/Sav_RemSp" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <Separator layout="316.0,603.0,240.0,10.0"/>
+
+    <BoundLabel layout="481.0,656.0,71.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/SavMaxHt_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="300.0,656.0,181.0,20.0" text="Primary Max Htg Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="481.0,676.0,71.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/SavMinHt_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="300.0,676.0,181.0,20.0" text="Primary Min Htg Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="403.0,585.0,162.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/SavAlarm" hyperlink="slot:../points/SavAlarm|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="311.0,565.0,170.0,20.0" text="Primary Control Volume:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="300.0,616.0,181.0,20.0" text="Primary Max Clg Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="300.0,636.0,181.0,20.0" text="Primary Min Clg Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="481.0,636.0,71.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/SavMinHt_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="481.0,616.0,71.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/SavMaxCl_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="602.0,539.5,132.0,20.0" text="Space Temp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="734.0,540.0,56.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Zone_EffTemp" hyperlink="slot:../points/Zone_EffTemp|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="598.0,560.5,136.0,20.0" text="Effective Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="734.0,561.0,56.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Zone_EffSp" hyperlink="slot:../points/Zone_EffSp|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/Zone_RemSp" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="734.0,580.5,53.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/ZoneDb_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="602.0,580.5,132.0,20.0" text="Deadband:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="602.0,607.0,132.0,20.0" text="Occ Mode:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="734.0,607.0,78.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/ZoneOccMode" hyperlink="slot:../points/ZoneOccMode|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/Zone_RemSchedule" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="602.0,627.0,132.0,20.0" text="Control Mode:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="734.0,627.0,78.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/ZoneControlMode" hyperlink="slot:../points/ZoneControlMode|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="602.0,647.0,132.0,20.0" text="Space Heating %:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="734.0,647.0,78.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Zone_EffHtg" hyperlink="slot:../points/Zone_EffHtg|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/Zone_RemHtg" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="602.0,667.0,132.0,20.0" text="Space Cooling %:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="734.0,667.0,78.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Zone_EffClg" hyperlink="slot:../points/Zone_EffClg|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/Zone_RemClg" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <Separator layout="604.0,697.5,208.0,10.0"/>
+
+    <BoundLabel layout="602.0,722.5,132.0,20.0" text="Unocc Heating Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="602.0,702.5,132.0,20.0" text="Unocc Cooling Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="734.0,722.5,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/ZoneUnocHt_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="734.0,702.5,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/ZoneUnocCl_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <Separator layout="604.0,602.5,208.0,10.0"/>
+
+    <Bargraph layout="825.0,516.5,28.0,233.5" min="60.0" max="80.0" foreground="white" scale="2.0" scaleFont="bold 13.0pt Calibri">
+      <ValueBinding ord="slot:../points/Zone_EffTemp">
+        <INumericToNumber name="value"/>
+      </ValueBinding>
+      <SpectrumSetpointBinding ord="slot:../points/Zone_EffSp"/>
+      <SpectrumBinding ord="slot:../points/Zone_EffTemp" lowColor="#8080ff" midColor="#80ff80" highColor="#ff8080" setpoint="70.5" extent="10.0"/>
+    </Bargraph>
+
+    <BoundLabel layout="170.0,494.0,104.0,25.0" text="From AHU1" font="bold 16.0pt Tahoma" foreground="white" padding="4.0">
+      <EciBFormatHyperlinkBinding ord="slot:../../Unit_Data/UnitGraphic_Hyperlink"/>
+    </BoundLabel>
+
+    <BoundLabel layout="205.0,454.0,69.0,20.0" font="bold 12.0pt Tahoma" halign="right" padding="4.0">
+      <EciBFormatHyperlinkBinding ord="slot:../../Unit_Data/DAT_History">
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </EciBFormatHyperlinkBinding>
+      <BoundLabelBinding ord="slot:../../Unit_Data/Unit_DAT">
+        <ObjectToString name="text" format="%out.value%"/>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="960.0,120.0,310.0,60.0" font="bold 14.0pt Tahoma" foreground="white" halign="right" valign="top" wordWrapEnabled="true" padding="4.0">
+      <BoundLabelBinding ord="slot:ZoneName" summary="%navOrd%" statusEffect="none">
+        <ObjectToString name="text" format="%out.value%"/>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="190.0,474.0,84.0,20.0" font="bold 12.0pt Tahoma" halign="right" padding="4.0">
+      <EciBFormatHyperlinkBinding ord="slot:../../Unit_Data/DuctStatic_History">
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </EciBFormatHyperlinkBinding>
+      <BoundLabelBinding ord="slot:../../Unit_Data/Unit_DuctStatic">
+        <ObjectToString name="text" format="%out.value%"/>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+  </CanvasPane>
+
+</ScrollPane>
+</content>
+</px>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<layers>
+  <layer name="floorPlan" status="normal"/>
+</layers>
+<content>
+<ScrollPane>
+
+  <CanvasPane name="content" viewSize="1280.0,2280.0" valign="top" background="linearGradient( angle(90.0) stop(0.0% grey) stop(70.65% #2a363a) stop(100.0% black) )">
+
+    <PxInclude layout="0.0,0.0,1280.0,120.0" ord="file:^pxInclude/header.px"/>
+
+    <BoundLabel layout="1110.0,90.0,168.0,20.0" text="CUH 3 &amp; 4" font="bold 18.0pt Tahoma" foreground="white" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="80.0,400.0,268.0,15.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="80.0,440.0,268.0,15.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="100.0,450.0,27.0,27.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowLeft.gif" padding="4.0"/>
+
+    <BoundLabel layout="100.0,370.0,27.0,27.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowRight.gif" padding="4.0"/>
+
+    <BoundLabel layout="100.0,360.0,90.0,20.0" text="HWV:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="190.0,360.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH3_HWV" hyperlink="slot:../points/CUH3_HWV|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="330.0,510.0,120.0,20.0" text="CUH3 Zone Temp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="450.0,510.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH3_ZoneTemp" hyperlink="slot:../points/CUH3_ZoneTemp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="340.0,290.0,159.0,213.0" image="module://kitPxDelta/kitPxDelta/TerminalUnits/CUH/CUH.png" padding="4.0"/>
+
+    <BoundLabel layout="440.0,440.0,30.0,37.0" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH3_FanStatus" hyperlink="slot:../points/CUH3_FanStatus|view:webChart:ChartWidget" popupEnabled="false" statusEffect="none">
+        <IBooleanToSimple name="image">
+          <Image name="trueValue" value="module://kitPxDelta/kitPxDelta/TerminalUnits/CUH/Fan_Animation.gif"/>
+          <Image name="falseValue" value=""/>
+        </IBooleanToSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="220.0,400.0,108.0,57.0" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH3_HWV" hyperlink="slot:../points/CUH3_HWV|view:webChart:ChartWidget" popupEnabled="false" statusEffect="none">
+        <IBooleanToSimple name="image">
+          <Image name="trueValue" value="module://kitPxDelta/kitPxDelta/TerminalUnits/CUH/HW_100.png"/>
+          <Image name="falseValue" value=""/>
+        </IBooleanToSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="280.0,550.0,170.0,20.0" text="CUH3 Zone Temp Eff Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="300.0,570.0,150.0,20.0" text="CUH3 DAT Rem Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="450.0,550.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH3_Zone_EffSp" hyperlink="slot:../points/CUH3_Zone_EffSp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="450.0,570.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH3_DAT_RemSp" hyperlink="slot:../points/CUH3_DAT_RemSp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="280.0,530.0,170.0,20.0" text="CUH3 Zone Temp Rem Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="450.0,530.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH3_Zone_RemSp" hyperlink="slot:../points/CUH3_Zone_RemSp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="300.0,590.0,150.0,20.0" text="CUH3 DAT Eff Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="450.0,590.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH3_DAT_EffSp" hyperlink="slot:../points/CUH3_DAT_EffSp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="710.0,400.0,268.0,15.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="710.0,440.0,268.0,15.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="730.0,450.0,27.0,27.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowLeft.gif" padding="4.0"/>
+
+    <BoundLabel layout="730.0,370.0,27.0,27.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowRight.gif" padding="4.0"/>
+
+    <BoundLabel layout="730.0,360.0,90.0,20.0" text="HWV:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="820.0,360.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH4_HWV" hyperlink="slot:../points/CUH4_HWV|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="960.0,510.0,120.0,20.0" text="CUH4 Zone Temp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1080.0,510.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH4_ZoneTemp" hyperlink="slot:../points/CUH4_ZoneTemp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="970.0,290.0,159.0,213.0" image="module://kitPxDelta/kitPxDelta/TerminalUnits/CUH/CUH.png" padding="4.0"/>
+
+    <BoundLabel layout="1070.0,440.0,30.0,37.0" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH4_FanStatus" hyperlink="slot:../points/CUH4_FanStatus|view:webChart:ChartWidget" popupEnabled="false" statusEffect="none">
+        <IBooleanToSimple name="image">
+          <Image name="trueValue" value="module://kitPxDelta/kitPxDelta/TerminalUnits/CUH/Fan_Animation.gif"/>
+          <Image name="falseValue" value=""/>
+        </IBooleanToSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="220.0,400.0,108.0,57.0" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH4_HWV" hyperlink="slot:../points/CUH4_HWV|view:webChart:ChartWidget" popupEnabled="false" statusEffect="none">
+        <IBooleanToSimple name="image">
+          <Image name="trueValue" value="module://kitPxDelta/kitPxDelta/TerminalUnits/CUH/HW_100.png"/>
+          <Image name="falseValue" value=""/>
+        </IBooleanToSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="910.0,550.0,170.0,20.0" text="CUH4 Zone Temp Eff Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="930.0,570.0,150.0,20.0" text="CUH4 DAT Rem Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1080.0,550.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH4_Zone_EffSp" hyperlink="slot:../points/CUH4_Zone_EffSp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1080.0,570.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH4_DAT_RemSp" hyperlink="slot:../points/CUH4_DAT_RemSp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="910.0,530.0,170.0,20.0" text="CUH4 Zone Temp Rem Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1080.0,530.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH4_Zone_RemSp" hyperlink="slot:../points/CUH4_Zone_RemSp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="930.0,590.0,150.0,20.0" text="CUH4 DAT Eff Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1080.0,590.0,65.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CUH4_DAT_EffSp" hyperlink="slot:../points/CUH4_DAT_EffSp|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+  </CanvasPane>
+
+</ScrollPane>
+</content>
+</px>

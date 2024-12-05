@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<layers>
+  <layer name="floorPlan" status="normal"/>
+</layers>
+<content>
+<ScrollPane>
+
+  <CanvasPane name="content" viewSize="1280.0,2280.0" valign="top" background="linearGradient( angle(90.0) stop(0.0% grey) stop(70.65% #2a363a) stop(100.0% black) )">
+
+    <PxInclude layout="0.0,0.0,1280.0,120.0" ord="file:^pxInclude/header.px"/>
+
+    <BoundLabel layout="1017.0,580.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CWST" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="950.0,580.0,67.0,20.0" text="CHWS:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="955.0,400.0,67.0,20.0" text="CHWR:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="1022.0,400.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CWRT" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="590.0,720.0,137.0,20.0" text="CHWP1 Enable:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="727.0,720.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CWP1_Enable" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="590.0,740.0,137.0,20.0" text="CHWP1 Speed:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="717.0,740.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CWP1_SpeedRef" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="590.0,760.0,137.0,20.0" text="CHWP1 Current:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="727.0,760.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CWP1_Current" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="800.0,720.0,137.0,20.0" text="CHWP2 Enable:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="937.0,720.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CWP2_Enable" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="800.0,740.0,137.0,20.0" text="CHWP2 Speed:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="937.0,740.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CWP2_SpeedRef" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="800.0,760.0,137.0,20.0" text="CHWP2 Current:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="937.0,760.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/CWP2_Current" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="430.0,210.0,137.0,20.0" text="CHW DP:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" wordWrapEnabled="true" padding="4.0"/>
+
+    <BoundLabel layout="567.0,210.0,85.0,20.0" font="bold 12.0pt Tahoma" halign="left" wordWrapEnabled="true" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/DiffPressure" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="980.0,640.0,300.0,105.0" text="Pump Rotation" font="bold underline 15.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="1037.0,664.0,128.0,20.0" text="Current Lead Pump:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1164.0,664.0,66.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/LeadPump" hyperlink="slot:../points/LeadPump|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="HW%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1045.5,703.0,168.0,20.0" text="Next Scheduled Rotation:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="982.0,723.0,295.0,20.0" font="bold 12.0pt Tahoma" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../PumpRotate/PumpRotate" hyperlink="slot:../PumpRotate/PumpRotate" summary="%navOrd%" statusEffect="none">
+        <ObjectToString name="text"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1035.0,684.0,128.0,20.0" text="Lag Assist:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1163.0,684.0,66.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWPLagAssist" hyperlink="slot:../points/HWPLagAssist|view:webChart:ChartWidget" summary="%navOrd%" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWPLagAssist/Reset" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="320.0,271.0,30.0,20.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="916.0,575.0,7.0,115.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="846.0,575.0,7.0,125.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="761.0,575.0,7.0,115.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="350.0,295.0,9.0,75.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="335.0,265.0,30.0,42.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldElbowSW.gif" padding="4.0"/>
+
+    <BoundLabel layout="363.0,698.0,17.0,100.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" foreground="#40ffff" padding="4.0"/>
+
+    <BoundLabel layout="363.0,633.0,17.0,100.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" foreground="#40ffff" padding="4.0"/>
+
+    <BoundLabel layout="275.0,775.0,50.0,10.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Horiz.png" foreground="#40e1ff" padding="4.0"/>
+
+    <BoundLabel layout="326.0,655.0,44.0,12.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Horiz.png" foreground="#40e1ff" padding="4.0"/>
+
+    <BoundLabel layout="318.0,660.0,15.639999999999986,68.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" foreground="#40ffff" padding="4.0"/>
+
+    <BoundLabel layout="318.0,712.0,15.639999999999986,68.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" foreground="#40ffff" padding="4.0"/>
+
+    <BoundLabel layout="260.0,725.0,50.0,74.0" image="file:^siteImages/GlycolTank.png" padding="4.0"/>
+
+    <BoundLabel layout="353.0,708.0,40.0,96.0" image="file:^siteImages/exptank.png" padding="4.0"/>
+
+    <BoundLabel layout="363.0,563.0,17.0,100.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" foreground="#40ffff" padding="4.0"/>
+
+    <Label layout="260.0,725.0,50.0,74.0" image="file:^siteImages/MSO/GlycolTank.png"/>
+
+    <Label layout="350.0,708.0,40.0,96.0" image="file:^siteImages/MSO/exptank.png"/>
+
+    <BoundLabel layout="650.0,562.0,390.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="700.0,650.0,60.0,73.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pumps/Inline.png" padding="4.0"/>
+
+    <BoundLabel layout="691.0,573.0,7.0,117.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="745.0,684.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldElbowNW.gif" padding="4.0"/>
+
+    <BoundLabel layout="685.0,687.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldElbowNE.gif" padding="4.0"/>
+
+    <BoundLabel layout="855.0,650.0,60.0,73.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pumps/Inline.png" padding="4.0"/>
+
+    <BoundLabel layout="900.0,684.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldElbowNW.gif" padding="4.0"/>
+
+    <BoundLabel layout="840.0,687.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldElbowNE.gif" padding="4.0"/>
+
+    <BoundLabel layout="905.0,560.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldTeeS.gif" padding="4.0"/>
+
+    <BoundLabel layout="835.0,560.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldTeeS.gif" padding="4.0"/>
+
+    <BoundLabel layout="610.0,311.0,192.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="610.0,262.0,192.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldHoriz.gif" padding="4.0"/>
+
+    <Line stroke="#3538b5" pen="6.0 capRound" geom="802.0,269.0 802.0,261.0"/>
+
+    <BoundLabel layout="712.0,180.0,80.0,82.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP Small.png" padding="4.0"/>
+
+    <BoundLabel layout="729.0,232.0,10.0,78.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" padding="4.0"/>
+
+    <BoundLabel layout="765.0,214.0,10.0,49.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" padding="4.0"/>
+
+    <Line stroke="#3538b5" pen="6.0 capRound" geom="800.0,318.0 800.0,310.0"/>
+
+    <Line stroke="#3538b5" pen="6.0 capRound" geom="610.0,318.0 610.0,310.0"/>
+
+    <Line stroke="#3538b5" pen="6.0 capRound" geom="610.0,269.0 610.0,261.0"/>
+
+    <BoundLabel layout="750.0,560.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldTeeS.gif" padding="4.0"/>
+
+    <BoundLabel layout="680.0,560.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldTeeS.gif" padding="4.0"/>
+
+    <BoundLabel layout="330.0,562.0,330.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="310.0,550.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldElbowNE.gif" padding="4.0"/>
+
+    <BoundLabel layout="315.0,360.0,9.0,191.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="96.0,230.0,245.0,220.0" image="module://kitPxDelta/kitPxDelta/Equipment/Chillers/Air_Cooled.png" padding="4.0"/>
+
+    <BoundLabel layout="345.0,369.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldElbowNE.gif" padding="4.0"/>
+
+    <BoundLabel layout="368.0,381.0,335.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="700.0,381.0,340.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/coldHoriz.gif" padding="4.0"/>
+
+    <Line stroke="#3538b5" pen="6.0 capRound" geom="1040.0,388.0 1040.0,380.0"/>
+
+    <Label layout="500.0,485.0,65.0,118.0" image="file:^siteImages/Tanks/2pipe_CW_BufferTank.png"/>
+
+    <Line stroke="#3538b5" pen="6.0 capRound" geom="1040.0,568.0 1040.0,560.0"/>
+
+    <BoundLabel layout="960.0,335.0,40.0,50.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/Temp_well_Up.png" padding="4.0"/>
+
+    <BoundLabel layout="660.0,360.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/cPipeArrowLeft.gif" padding="4.0"/>
+
+    <BoundLabel layout="635.0,540.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/cPipeArrowRight.gif" padding="4.0"/>
+
+    <BoundLabel layout="410.0,540.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/cPipeArrowRight.gif" padding="4.0"/>
+
+    <BoundLabel layout="770.0,620.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/cPipeArrowUp.gif" padding="4.0"/>
+
+    <BoundLabel layout="925.0,620.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/cPipeArrowUp.gif" padding="4.0"/>
+
+    <BoundLabel layout="670.0,620.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/cPipeArrowDown.gif" padding="4.0"/>
+
+    <BoundLabel layout="825.0,620.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/cPipeArrowDown.gif" padding="4.0"/>
+
+    <BoundLabel layout="965.0,515.0,40.0,50.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/Temp_well_Up.png" padding="4.0"/>
+
+  </CanvasPane>
+
+</ScrollPane>
+</content>
+</px>

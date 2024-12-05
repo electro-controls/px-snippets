@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Niagara Presentation XML -->
+<px version="1.0" media="workbench:WbPxMedia">
+<import>
+  <module name="baja"/>
+  <module name="bajaui"/>
+  <module name="converters"/>
+  <module name="gx"/>
+  <module name="kitPx"/>
+</import>
+<layers>
+  <layer name="floorPlan" status="normal"/>
+</layers>
+<content>
+<ScrollPane>
+
+  <CanvasPane name="content" viewSize="1280.0,2280.0" valign="top" background="linearGradient( angle(90.0) stop(0.0% grey) stop(70.65% #2a363a) stop(100.0% black) )">
+
+    <BoundLabel layout="767.0,722.0,88.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="740.0,792.0,78.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="167.0,352.0,7.0,92.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="820.0,460.0,15.0,330.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="167.0,358.0,7.0,47.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="635.0,337.0,435.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="340.0,337.0,185.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <PxInclude layout="0.0,0.0,1280.0,120.0" ord="file:^pxInclude/header.px"/>
+
+    <BoundLabel layout="870.0,680.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowDown.gif" padding="4.0"/>
+
+    <BoundLabel layout="800.0,760.0,19.0,19.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowUp.gif" padding="4.0"/>
+
+    <BoundLabel layout="536.0,372.0,81.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="519.0,360.0,21.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotElbowNE.gif" padding="4.0"/>
+
+    <BoundLabel layout="614.0,292.0,21.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotElbowSW.gif" padding="4.0"/>
+
+    <BoundLabel layout="614.0,360.0,21.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotElbowNW.gif" padding="4.0"/>
+
+    <BoundLabel layout="536.0,294.0,80.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="521.0,311.0,7.0,52.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="626.0,311.0,7.0,53.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="519.0,292.0,21.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotElbowSE.gif" padding="4.0"/>
+
+    <BoundLabel layout="550.0,250.0,50.0,65.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pumps/Inline.png" padding="4.0"/>
+
+    <BoundLabel layout="560.0,295.0,34.0,20.0" padding="4.0">
+      <ValueBinding ord="slot:../points/HWP1Status" popupEnabled="false">
+        <IBooleanToSimple name="image">
+          <Image name="trueValue" value="module://kitPxDelta/kitPxDelta/Equipment/Pumps/Inline_Animation.gif"/>
+          <Image name="falseValue" value="null"/>
+        </IBooleanToSimple>
+      </ValueBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="624.0,326.0,21.0,29.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotTeeE.gif" padding="4.0"/>
+
+    <BoundLabel layout="509.0,326.0,21.0,29.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotTeeW.gif" padding="4.0"/>
+
+    <BoundLabel layout="1105.0,102.0,168.0,20.0" text="CW System" font="bold 18.0pt Tahoma" foreground="white" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="180.0,449.0,345.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="515.0,449.0,500.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="1000.0,449.0,70.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="900.0,430.0,79.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWR" hyperlink="slot:../points/HWR|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="165.0,437.0,21.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotElbowNE.gif" padding="4.0"/>
+
+    <BoundLabel layout="165.0,335.0,21.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotElbowSE.gif" padding="4.0"/>
+
+    <BoundLabel layout="877.0,405.0,23.0,42.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/Temp-well.png" padding="4.0"/>
+
+    <BoundLabel layout="800.0,300.0,23.0,42.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/Temp-well.png" padding="4.0"/>
+
+    <BoundLabel layout="1110.0,279.0,40.0,64.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP Small.png" padding="4.0"/>
+
+    <BoundLabel layout="960.0,284.0,85.0,20.0" text="HW Dp Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1045.0,284.0,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWDp_Sp" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="986.0,304.0,59.0,20.0" text="HW Dp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1045.0,304.0,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWDp" hyperlink="slot:../points/HWDp|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="550.0,327.0,50.0,65.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pumps/Inline.png" padding="4.0"/>
+
+    <BoundLabel layout="559.0,372.0,34.0,20.0" padding="4.0">
+      <ValueBinding ord="slot:../points/HWP2Status" popupEnabled="false">
+        <IBooleanToSimple name="image">
+          <Image name="trueValue" value="module://kitPxDelta/kitPxDelta/Equipment/Pumps/Inline_Animation.gif"/>
+          <Image name="falseValue" value="null"/>
+        </IBooleanToSimple>
+      </ValueBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="915.0,470.0,300.0,290.0" text="HW System Enable Parameters" font="bold underline 16.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="1113.0,687.0,96.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../SystemEnable/AvgZoneHtg" hyperlink="slot:../SystemEnable/AvgZoneHtg|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1113.0,656.0,96.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/OATInt2" hyperlink="slot:../points/OATInt2|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="924.0,687.0,184.0,20.0" text="Avg Space Htg Demand:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="1113.0,634.0,96.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/OATInt2_Sp">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1113.0,600.0,96.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/OATInt1" hyperlink="slot:../points/OATInt1|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1113.0,561.0,96.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/OATInt1Delay_Sp">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="924.0,538.0,184.0,20.0" text="OA Interlock 1 Setpoint:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="924.0,634.0,184.0,20.0" text="OA Interlock 2 Setpoint:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="925.0,561.0,184.0,20.0" text="OA Inter 1 Delay Setpoint:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="1113.0,538.0,96.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/OATInt1_Sp">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="924.0,600.0,184.0,20.0" text="Interlock #1 State (Delayed):" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="924.0,656.0,184.0,20.0" text="Interlock #2 State:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="1113.0,503.0,96.0,20.0" font="bold 14.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/SystemEnable">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWSystemMode"/>
+    </BoundLabel>
+
+    <BoundLabel layout="924.0,503.0,184.0,20.0" text="Current HW Heating:" font="bold 14.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <Line stroke="white" geom="1185.0,530.0 940.0,530.0"/>
+
+    <Line stroke="white" geom="1185.0,625.0 940.0,625.0"/>
+
+    <Line stroke="white" geom="1185.0,682.0 940.0,682.0"/>
+
+    <BoundLabel layout="924.0,707.0,184.0,20.0" text="Htg Demand Enable Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="1113.0,707.0,96.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../SystemEnable/RemDemandSp">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="816.0,620.0,31.0,50.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/Temp-well.png" padding="4.0"/>
+
+    <BoundLabel layout="200.0,775.0,73.0,20.0" font="italic 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/B1LWT" hyperlink="slot:../points/B1LWT|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1070.0,327.0,27.0,27.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowRight.gif" padding="4.0"/>
+
+    <BoundLabel layout="1113.0,579.0,96.0,20.0" font="italic 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/OATInt1TmLeft">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="925.0,579.0,184.0,20.0" text="OA Inter 1 Time Left:" font="italic 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="814.0,447.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotTeeS.gif" padding="4.0"/>
+
+    <BoundLabel layout="849.0,447.0,29.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotTeeS.gif" padding="4.0"/>
+
+    <BoundLabel layout="860.0,461.0,10.0,259.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotVert.gif" padding="4.0"/>
+
+    <BoundLabel layout="175.0,710.0,31.0,35.0" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/BP1Status" popupEnabled="false" statusEffect="none">
+        <IBooleanToSimple name="image">
+          <Image name="trueValue" value="module://kitPxDelta/kitPxDelta/Equipment/Pumps/CircVertOn.gif"/>
+          <Image name="falseValue" value="module://kitPxDelta/kitPxDelta/Equipment/Pumps/CircVertOff.gif"/>
+        </IBooleanToSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="200.0,715.0,79.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/BP1Enable" hyperlink="slot:../points/BP1Enable|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="200.0,735.0,73.0,20.0" font="italic 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/BP1Current" hyperlink="slot:../points/BP1Current|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1170.0,328.0,27.0,27.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowRight.gif" padding="4.0"/>
+
+    <BoundLabel layout="1095.0,338.0,78.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="1095.0,449.0,78.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+    <BoundLabel layout="1144.0,309.0,8.0,108.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" padding="4.0"/>
+
+    <BoundLabel layout="362.0,240.0,138.0,90.0" text="HWP1" font="bold underline 14.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="366.0,264.0,54.0,20.0" text="Enable:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="360.0,304.0,60.0,20.0" text="Runtime:" font="italic 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="420.0,304.0,76.0,20.0" font="italic 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP1Status/Runtime" summary="%navOrd%" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="420.0,264.0,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP1Enable" hyperlink="slot:../points/HWP1Enable|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWP1Fail" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="366.0,284.0,54.0,20.0" text="Speed:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="420.0,284.0,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP1Speed" hyperlink="slot:../points/HWP1Speed|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="800.0,160.0,300.0,105.0" text="Pump Rotation" font="bold underline 15.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="857.0,184.0,128.0,20.0" text="Current Lead Pump:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="984.0,184.0,66.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/LeadPump" hyperlink="slot:../points/LeadPump|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="HW%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="865.5,223.0,168.0,20.0" text="Next Scheduled Rotation:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="802.0,243.0,295.0,20.0" font="bold 12.0pt Tahoma" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../PumpRotate/PumpRotate" hyperlink="slot:../PumpRotate/PumpRotate" summary="%navOrd%" statusEffect="none">
+        <ObjectToString name="text"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="855.0,204.0,128.0,20.0" text="Lag Assist:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="983.0,204.0,66.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWPLagAssist" hyperlink="slot:../points/HWPLagAssist|view:webChart:ChartWidget" summary="%navOrd%" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWPLagAssist/Reset" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="915.0,780.0,300.0,95.0" text="Boiler Lead/Lag" font="bold underline 16.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="1030.0,809.0,83.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/LeadBoiler" hyperlink="slot:../points/LeadBoiler|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="946.0,809.0,81.0,20.0" text="Lead Boiler:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="1011.5,829.0,120.0,20.0" text="Next Sched Rotate" font="bold underline 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="917.0,849.0,293.0,20.0" font="bold 12.0pt Tahoma" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../BoilerRotate/BoilerRotate" hyperlink="slot:../BoilerRotate/BoilerRotate" summary="%navOrd%" statusEffect="none">
+        <ObjectToString name="text"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1170.0,440.0,27.0,27.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowLeft.gif" padding="4.0"/>
+
+    <BoundLabel layout="1070.0,440.0,27.0,27.0" image="module://kitPxDelta/kitPxDelta/Misc/Arrows/hPipeArrowLeft.gif" padding="4.0"/>
+
+    <BoundLabel layout="1145.0,345.0,8.0,108.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/DeltaPiping/DP pipe Vert.png" padding="4.0"/>
+
+    <BoundLabel layout="362.0,349.0,138.0,90.0" text="HWP2" font="bold underline 14.0pt Tahoma" foreground="white" background="#eb6d6d6d" valign="top" border="2.0 ridge black" padding="4.0"/>
+
+    <BoundLabel layout="366.0,373.0,54.0,20.0" text="Enable:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="360.0,413.0,60.0,20.0" text="Runtime:" font="italic 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="420.0,413.0,76.0,20.0" font="italic 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP2Status/Runtime" summary="%navOrd%" popupEnabled="false">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="420.0,373.0,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP2Enable" hyperlink="slot:../points/HWP2Enable|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWP2Fail" summary="%navOrd%"/>
+    </BoundLabel>
+
+    <BoundLabel layout="366.0,393.0,54.0,20.0" text="Speed:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="420.0,393.0,60.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP2Speed" hyperlink="slot:../points/HWP2Speed|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="490.0,270.0,73.0,20.0" font="italic 12.0pt Tahoma" halign="right" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP1Current" hyperlink="slot:../points/HWP1Current|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="490.0,379.0,73.0,20.0" font="italic 12.0pt Tahoma" halign="right" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWP2Current" hyperlink="slot:../points/HWP2Current|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="1196.0,330.0,54.0,20.0" text="HWS" font="bold 14.0pt Tahoma" foreground="white" halign="left" padding="4.0"/>
+
+    <BoundLabel layout="1196.0,442.0,54.0,20.0" text="HWR" font="bold 14.0pt Tahoma" foreground="white" halign="left" padding="4.0"/>
+
+    <BoundLabel layout="410.0,316.0,79.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWS" hyperlink="slot:../points/HWS|view:webChart:ChartWidget">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="295.0,460.0,70.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWS_Sp" hyperlink="slot:../points/HWS_Sp|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="210.0,460.0,85.0,20.0" text="HWS Sp:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="295.0,480.0,70.0,20.0" font="bold 12.0pt Tahoma" halign="left" mouseOver="highlight" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/HWSDemand_Eff" hyperlink="slot:../points/HWSDemand_Eff|view:webChart:ChartWidget" summary="%navOrd%">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+      <BoundLabelBinding ord="slot:../points/HWSDemand_Rem"/>
+    </BoundLabel>
+
+    <BoundLabel layout="200.0,480.0,95.0,20.0" text="HWS Demand:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" padding="4.0"/>
+
+    <BoundLabel layout="925.0,730.0,184.0,20.0" text="Space Heating Demand:" font="bold 12.0pt Tahoma" foreground="#fea426" halign="right" textToIconAlign="left" padding="4.0"/>
+
+    <BoundLabel layout="1114.0,730.0,96.0,20.0" font="bold 12.0pt Tahoma" halign="left" padding="4.0">
+      <BoundLabelBinding ord="slot:../points/Rem_BldgHeatCall" hyperlink="slot:../points/Rem_BldgHeatCall">
+        <ObjectToString name="text" format="%out.value%"/>
+        <FixedSimple name="foreground">
+          <Brush name="value" value="white"/>
+        </FixedSimple>
+      </BoundLabelBinding>
+    </BoundLabel>
+
+    <BoundLabel layout="849.0,710.0,21.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotElbowNW.gif" padding="4.0"/>
+
+    <BoundLabel layout="560.0,650.0,220.0,222.0" image="module://kitPxDelta/kitPxDelta/Equipment/Chillers/Air_Cooled.png" padding="4.0"/>
+
+    <BoundLabel layout="812.0,780.0,21.0,21.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotElbowNW.gif" padding="4.0"/>
+
+    <BoundLabel layout="180.0,337.0,70.0,7.0" image="module://kitPxDelta/kitPxDelta/Equipment/Pipes/TridiumPiping/hotHoriz.gif" padding="4.0"/>
+
+  </CanvasPane>
+
+</ScrollPane>
+</content>
+</px>
